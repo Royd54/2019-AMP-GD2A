@@ -22,7 +22,7 @@ function Animate(){
         woekoe[i].label = i;
         woekoe[i].radius++;
         woekoe[i].draw(context);
-        if(woekoe[i].radius > 100){
+        if(woekoe[i].radius > 300){
           woekoe.splice(i,1);
         }
       }
