@@ -37,17 +37,3 @@ function animate() {
   context.closePath();
 }
 animate();
-
-/*
-    if(i == 3){
-      for(let i = 0; i < balls.length; i++){
-        i++;
-      context.beginPath();
-      context.moveTo(balls[i].position.dx, balls[i].position.dy);
-      context.lineTo(balls[0].position.dx, balls[0].position.dy);
-      context.strokeStyle = "black";
-      context.stroke();
-      context.closePath();
-      }
-    }
-*/
