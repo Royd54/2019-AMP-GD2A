@@ -19,9 +19,7 @@ for (let i = 0; i < 4; i++) {
   balls[i].draw(context);
 }
 
-
 function animate() {
-
   requestAnimationFrame(animate);
   context.beginPath();
   context.moveTo(balls[0].position.dx, balls[0].position.dy);
@@ -29,6 +27,7 @@ function animate() {
   for (let i = 1; i < balls.length; i++) {
     context.lineTo(balls[i].position.dx, balls[i].position.dy);
   }
+  
   context.lineTo(balls[0].position.dx, balls[0].position.dy);
   context.fillstyle = "red";
   context.strokeStyle = "black";
